@@ -17,6 +17,9 @@
                     float: none !important;
                     text-align: center !important;
                 }
+                .small-text-left {
+                    text-align: left !important;
+                }
             }
             @media only screen and (max-width: 596px) {
                 table.body img {
@@ -45,9 +48,21 @@
                     padding-left: 0 !important;
                     padding-right: 0 !important;
                 }
+                th.small-2 {
+                    display: inline-block !important;
+                    width: 16.66667% !important;
+                }
+                th.small-4 {
+                    display: inline-block !important;
+                    width: 33.33333% !important;
+                }
                 th.small-6 {
                     display: inline-block !important;
                     width: 50% !important;
+                }
+                th.small-9 {
+                    display: inline-block !important;
+                    width: 75% !important;
                 }
                 th.small-12 {
                     display: inline-block !important;
@@ -71,6 +86,53 @@
                 }
                 table.menu[align="center"] {
                     width: auto !important;
+                }
+            }
+            @media only screen and (max-width: 600px) {
+                .section-top .section-top-text h1 {
+                    font-size: 24px;
+                }
+                .section-top .section-top-image .arts-top {
+                    text-align: right;
+                }
+                .section-top .section-bottom-text p {
+                    font-size: 12px;
+                }
+                .section-top .section-bottom-area h2 {
+                    border: 3px solid #000;
+                    padding: 15px 6px;
+                    font-size: 15px;
+                    text-align: center;
+                    color: #eb008b;
+                    font-weight: 900;
+                }
+                .section-top .section-bottom-area p {
+                    font-size: 10px;
+                }
+                .section-top .section-bottom-area hr {
+                    color: grey;
+                }
+                .sub-footer p {
+                    font-size: 12px;
+                }
+                .main-footer .social-media tbody > tr > th {
+                    padding: 0;
+                    text-align: center !important;
+                }
+                .main-footer .social-media tbody > tr {
+                    text-align: center !important;
+                }
+                .main-footer .social-media .social-icons {
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    width: 120px !important;
+                    text-align: center !important;
+                }
+                .main-footer .social-media .social-icons p {
+                    font-size: 9px;
+                }
+                .main-footer .social-media .social-icons img {
+                    margin: 0;
                 }
             }
         </style>
@@ -195,10 +257,13 @@
                                         "
                                     >
                                         <table
-                                            class="row"
+                                            class="row newark_arts_logo"
                                             style="
                                                 border-collapse: collapse;
+                                                border-left: 1px solid #000;
+                                                border-right: 1px solid #000;
                                                 border-spacing: 0;
+                                                border-top: 1px solid #000;
                                                 display: table;
                                                 padding: 0;
                                                 padding-bottom: 0;
@@ -214,15 +279,12 @@
                                             <tbody>
                                                 <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
                                                     <th
-                                                        class="newark_arts_logo small-12 large-12 columns first last"
+                                                        class="small-6 large-6 columns first last"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
                                                             margin: 0 auto;
                                                             border-collapse: collapse !important;
-                                                            border-left: 1px solid #000;
-                                                            border-right: 1px solid #000;
-                                                            border-top: 1px solid #000;
                                                             color: #0a0a0a;
                                                             font-family: Helvetica, Arial, sans-serif;
                                                             font-size: 16px;
@@ -236,7 +298,7 @@
                                                             padding-top: 0;
                                                             text-align: left;
                                                             vertical-align: top;
-                                                            width: 564px;
+                                                            width: 274px;
                                                             word-wrap: break-word;
                                                         "
                                                     >
@@ -270,32 +332,6 @@
                                                                             style="-ms-interpolation-mode: bicubic; clear: both; display: block; max-width: 100%; outline: 0; text-decoration: none; width: auto;"
                                                                         />
                                                                     </th>
-                                                                    <th
-                                                                        class="expander"
-                                                                        style="
-                                                                            -moz-hyphens: auto;
-                                                                            -webkit-hyphens: auto;
-                                                                            margin: 0;
-                                                                            border-collapse: collapse !important;
-                                                                            color: #0a0a0a;
-                                                                            font-family: Helvetica, Arial, sans-serif;
-                                                                            font-size: 16px;
-                                                                            font-weight: 400;
-                                                                            hyphens: auto;
-                                                                            line-height: 1.3;
-                                                                            margin: 0;
-                                                                            padding: 0 !important;
-                                                                            padding-bottom: 0;
-                                                                            padding-left: 0;
-                                                                            padding-right: 0;
-                                                                            padding-top: 0;
-                                                                            text-align: left;
-                                                                            vertical-align: top;
-                                                                            visibility: hidden;
-                                                                            width: 0;
-                                                                            word-wrap: break-word;
-                                                                        "
-                                                                    ></th>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
@@ -373,7 +409,7 @@
                                             <tbody>
                                                 <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
                                                     <th
-                                                        class="small-12 large-1 columns first"
+                                                        class="small-2 large-1 columns first"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -449,7 +485,7 @@
                                                         </table>
                                                     </th>
                                                     <th
-                                                        class="small-12 large-11 columns last"
+                                                        class="small-9 large-11 columns last"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -520,7 +556,7 @@
                                                                                 word-wrap: normal;
                                                                             "
                                                                         >
-                                                                            Don't Miss Out: Newark Public Art Map
+                                                                            Don't Miss Out: Newark Public Art&nbsp;Map
                                                                         </h1>
                                                                     </th>
                                                                 </tr>
@@ -531,7 +567,7 @@
                                             </tbody>
                                         </table>
                                         <table
-                                            class="row"
+                                            class="row section-top-image"
                                             style="
                                                 border-collapse: collapse;
                                                 border-spacing: 0;
@@ -550,7 +586,7 @@
                                             <tbody>
                                                 <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
                                                     <th
-                                                        class="small-12 large-12 columns first last"
+                                                        class="small-2 large-0 columns first"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -565,6 +601,58 @@
                                                             margin: 0 auto;
                                                             padding-bottom: 16px;
                                                             padding-left: 16px;
+                                                            padding-right: 0;
+                                                            padding-top: 0;
+                                                            text-align: left;
+                                                            vertical-align: top;
+                                                            word-wrap: break-word;
+                                                        "
+                                                    >
+                                                        <table style="border-collapse: collapse; border-spacing: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top; width: 100%;">
+                                                            <tbody>
+                                                                <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
+                                                                    <th
+                                                                        style="
+                                                                            -moz-hyphens: auto;
+                                                                            -webkit-hyphens: auto;
+                                                                            margin: 0;
+                                                                            border-collapse: collapse !important;
+                                                                            color: #0a0a0a;
+                                                                            font-family: Helvetica, Arial, sans-serif;
+                                                                            font-size: 16px;
+                                                                            font-weight: 400;
+                                                                            hyphens: auto;
+                                                                            line-height: 1.3;
+                                                                            margin: 0;
+                                                                            padding-bottom: 0;
+                                                                            padding-left: 0;
+                                                                            padding-right: 0;
+                                                                            padding-top: 0;
+                                                                            text-align: left;
+                                                                            vertical-align: top;
+                                                                            word-wrap: break-word;
+                                                                        "
+                                                                    ></th>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </th>
+                                                    <th
+                                                        class="small-9 large-12 columns last"
+                                                        style="
+                                                            -moz-hyphens: auto;
+                                                            -webkit-hyphens: auto;
+                                                            margin: 0 auto;
+                                                            border-collapse: collapse !important;
+                                                            color: #0a0a0a;
+                                                            font-family: Helvetica, Arial, sans-serif;
+                                                            font-size: 16px;
+                                                            font-weight: 400;
+                                                            hyphens: auto;
+                                                            line-height: 1.3;
+                                                            margin: 0 auto;
+                                                            padding-bottom: 16px;
+                                                            padding-left: 8px;
                                                             padding-right: 16px;
                                                             padding-top: 0;
                                                             text-align: left;
@@ -667,7 +755,7 @@
                                             <tbody>
                                                 <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
                                                     <th
-                                                        class="small-12 large-6 columns first"
+                                                        class="small-2 large-1 columns first"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -686,7 +774,7 @@
                                                             padding-top: 0;
                                                             text-align: left;
                                                             vertical-align: top;
-                                                            width: 274px;
+                                                            width: 32.33px;
                                                             word-wrap: break-word;
                                                         "
                                                     >
@@ -720,7 +808,7 @@
                                                         </table>
                                                     </th>
                                                     <th
-                                                        class="small-12 large-6 columns last"
+                                                        class="small-9 large-10 columns last"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -739,7 +827,7 @@
                                                             padding-top: 0;
                                                             text-align: left;
                                                             vertical-align: top;
-                                                            width: 274px;
+                                                            width: 467.33px;
                                                             word-wrap: break-word;
                                                         "
                                                     >
@@ -785,7 +873,6 @@
                                                                                 padding-right: 0;
                                                                                 padding-top: 0;
                                                                                 text-align: left;
-                                                                                width: 500px;
                                                                             "
                                                                         >
                                                                             Be sure to check out the recently launched <span style="color: #eb008b; font-weight: 600;">Newark public art map</span>! This is the largest collection of public
@@ -801,6 +888,7 @@
                                                             </tbody>
                                                         </table>
                                                     </th>
+                                                    <!-- <columns small="0" large="0"></columns> -->
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -824,7 +912,7 @@
                                             <tbody>
                                                 <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
                                                     <th
-                                                        class="small-12 large-6 columns first"
+                                                        class="small-2 large-1 columns first"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -843,7 +931,7 @@
                                                             padding-top: 0;
                                                             text-align: left;
                                                             vertical-align: top;
-                                                            width: 274px;
+                                                            width: 32.33px;
                                                             word-wrap: break-word;
                                                         "
                                                     >
@@ -877,7 +965,7 @@
                                                         </table>
                                                     </th>
                                                     <th
-                                                        class="small-12 large-6 columns last"
+                                                        class="small-9 large-11 columns last"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -896,7 +984,7 @@
                                                             padding-top: 0;
                                                             text-align: left;
                                                             vertical-align: top;
-                                                            width: 274px;
+                                                            width: 515.67px;
                                                             word-wrap: break-word;
                                                         "
                                                     >
@@ -946,7 +1034,7 @@
                                                                                 word-wrap: normal;
                                                                             "
                                                                         >
-                                                                            EXPERIENCE THE PUBLIC ART MAP
+                                                                            EXPERIENCE THE&nbsp;PUBLIC&nbsp;ART&nbsp;MAP
                                                                         </h2>
                                                                         <p
                                                                             style="
@@ -965,12 +1053,11 @@
                                                                                 padding-right: 0;
                                                                                 padding-top: 0;
                                                                                 text-align: left;
-                                                                                width: 500px;
                                                                             "
                                                                         >
                                                                             The technology behind this map is powered by Canvs.
                                                                         </p>
-                                                                        <hr />
+                                                                        <hr style="color: grey;" />
                                                                     </th>
                                                                 </tr>
                                                             </tbody>
@@ -983,6 +1070,7 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <!-- test area begin   it seems good -->
                         <table
                             align="center"
                             class="container section-top float-center"
@@ -1029,10 +1117,11 @@
                                         "
                                     >
                                         <table
-                                            class="row section-top-text"
+                                            class="row section-top-text top-border"
                                             style="
                                                 border-collapse: collapse;
                                                 border-spacing: 0;
+                                                border-top: 1px solid #000;
                                                 display: table;
                                                 padding: 0;
                                                 padding-bottom: 0;
@@ -1048,7 +1137,7 @@
                                             <tbody>
                                                 <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
                                                     <th
-                                                        class="small-12 large-1 columns first"
+                                                        class="small-2 large-1 columns first"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -1124,7 +1213,7 @@
                                                         </table>
                                                     </th>
                                                     <th
-                                                        class="small-12 large-11 columns last"
+                                                        class="small-9 large-11 columns last"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -1206,7 +1295,7 @@
                                             </tbody>
                                         </table>
                                         <table
-                                            class="row"
+                                            class="row section-top-image"
                                             style="
                                                 border-collapse: collapse;
                                                 border-spacing: 0;
@@ -1225,7 +1314,7 @@
                                             <tbody>
                                                 <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
                                                     <th
-                                                        class="small-12 large-12 columns first last"
+                                                        class="small-2 large-0 columns first"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -1240,6 +1329,58 @@
                                                             margin: 0 auto;
                                                             padding-bottom: 16px;
                                                             padding-left: 16px;
+                                                            padding-right: 0;
+                                                            padding-top: 0;
+                                                            text-align: left;
+                                                            vertical-align: top;
+                                                            word-wrap: break-word;
+                                                        "
+                                                    >
+                                                        <table style="border-collapse: collapse; border-spacing: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top; width: 100%;">
+                                                            <tbody>
+                                                                <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
+                                                                    <th
+                                                                        style="
+                                                                            -moz-hyphens: auto;
+                                                                            -webkit-hyphens: auto;
+                                                                            margin: 0;
+                                                                            border-collapse: collapse !important;
+                                                                            color: #0a0a0a;
+                                                                            font-family: Helvetica, Arial, sans-serif;
+                                                                            font-size: 16px;
+                                                                            font-weight: 400;
+                                                                            hyphens: auto;
+                                                                            line-height: 1.3;
+                                                                            margin: 0;
+                                                                            padding-bottom: 0;
+                                                                            padding-left: 0;
+                                                                            padding-right: 0;
+                                                                            padding-top: 0;
+                                                                            text-align: left;
+                                                                            vertical-align: top;
+                                                                            word-wrap: break-word;
+                                                                        "
+                                                                    ></th>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </th>
+                                                    <th
+                                                        class="small-9 large-12 columns last"
+                                                        style="
+                                                            -moz-hyphens: auto;
+                                                            -webkit-hyphens: auto;
+                                                            margin: 0 auto;
+                                                            border-collapse: collapse !important;
+                                                            color: #0a0a0a;
+                                                            font-family: Helvetica, Arial, sans-serif;
+                                                            font-size: 16px;
+                                                            font-weight: 400;
+                                                            hyphens: auto;
+                                                            line-height: 1.3;
+                                                            margin: 0 auto;
+                                                            padding-bottom: 16px;
+                                                            padding-left: 8px;
                                                             padding-right: 16px;
                                                             padding-top: 0;
                                                             text-align: left;
@@ -1342,7 +1483,7 @@
                                             <tbody>
                                                 <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
                                                     <th
-                                                        class="small-12 large-6 columns first"
+                                                        class="small-2 large-1 columns first"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -1361,7 +1502,7 @@
                                                             padding-top: 0;
                                                             text-align: left;
                                                             vertical-align: top;
-                                                            width: 274px;
+                                                            width: 32.33px;
                                                             word-wrap: break-word;
                                                         "
                                                     >
@@ -1395,7 +1536,7 @@
                                                         </table>
                                                     </th>
                                                     <th
-                                                        class="small-12 large-6 columns last"
+                                                        class="small-9 large-10 columns last"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -1414,7 +1555,7 @@
                                                             padding-top: 0;
                                                             text-align: left;
                                                             vertical-align: top;
-                                                            width: 274px;
+                                                            width: 467.33px;
                                                             word-wrap: break-word;
                                                         "
                                                     >
@@ -1460,7 +1601,6 @@
                                                                                 padding-right: 0;
                                                                                 padding-top: 0;
                                                                                 text-align: left;
-                                                                                width: 500px;
                                                                             "
                                                                         >
                                                                             The countdown begins to Newark Arts Festival 2021 ("NAF") will celebrate “Creative Resilience,” as it returns to in-person programming! NAF amplifies the voices of
@@ -1475,6 +1615,7 @@
                                                             </tbody>
                                                         </table>
                                                     </th>
+                                                    <!-- <columns small="0" large="0"></columns> -->
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -1498,7 +1639,7 @@
                                             <tbody>
                                                 <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
                                                     <th
-                                                        class="small-12 large-6 columns first"
+                                                        class="small-2 large-1 columns first"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -1517,7 +1658,7 @@
                                                             padding-top: 0;
                                                             text-align: left;
                                                             vertical-align: top;
-                                                            width: 274px;
+                                                            width: 32.33px;
                                                             word-wrap: break-word;
                                                         "
                                                     >
@@ -1551,7 +1692,7 @@
                                                         </table>
                                                     </th>
                                                     <th
-                                                        class="small-12 large-6 columns last"
+                                                        class="small-9 large-11 columns last"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -1570,7 +1711,7 @@
                                                             padding-top: 0;
                                                             text-align: left;
                                                             vertical-align: top;
-                                                            width: 274px;
+                                                            width: 515.67px;
                                                             word-wrap: break-word;
                                                         "
                                                     >
@@ -1620,7 +1761,7 @@
                                                                                 word-wrap: normal;
                                                                             "
                                                                         >
-                                                                            Stay up to date on Newark Arts Festival
+                                                                            Stay up to date on Newark&nbsp;Arts&nbsp;Festival
                                                                         </h2>
                                                                         <p
                                                                             style="
@@ -1639,12 +1780,11 @@
                                                                                 padding-right: 0;
                                                                                 padding-top: 0;
                                                                                 text-align: left;
-                                                                                width: 500px;
                                                                             "
                                                                         >
                                                                             The technology behind this map is powered by Canvs.
                                                                         </p>
-                                                                        <hr />
+                                                                        <hr style="color: grey;" />
                                                                     </th>
                                                                 </tr>
                                                             </tbody>
@@ -1653,10 +1793,58 @@
                                                 </tr>
                                             </tbody>
                                         </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- test area end --><!-- test area about newark arts begin -->
+                        <table
+                            style="
+                                margin: 0 auto;
+                                background: #fefefe;
+                                border: 1px solid #000;
+                                border-collapse: collapse;
+                                border-spacing: 0;
+                                float: none;
+                                margin: 0 auto;
+                                padding-bottom: 0;
+                                padding-left: 0;
+                                padding-right: 0;
+                                padding-top: 0;
+                                text-align: center;
+                                vertical-align: top;
+                                width: 580px;
+                            "
+                            align="center"
+                            class="container float-center"
+                        >
+                            <tbody>
+                                <tr style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: left; vertical-align: top;">
+                                    <td
+                                        style="
+                                            -moz-hyphens: auto;
+                                            -webkit-hyphens: auto;
+                                            margin: 0;
+                                            border-collapse: collapse !important;
+                                            color: #0a0a0a;
+                                            font-family: Helvetica, Arial, sans-serif;
+                                            font-size: 16px;
+                                            font-weight: 400;
+                                            hyphens: auto;
+                                            line-height: 1.3;
+                                            margin: 0;
+                                            padding-bottom: 0;
+                                            padding-left: 0;
+                                            padding-right: 0;
+                                            padding-top: 0;
+                                            text-align: left;
+                                            vertical-align: top;
+                                            word-wrap: break-word;
+                                        "
+                                    >
                                         <table
                                             class="row sub-footer bottom-border"
                                             style="
-                                                border-bottom: 1px solid #000;
                                                 border-collapse: collapse;
                                                 border-spacing: 0;
                                                 border-top: 1px solid #000;
@@ -1727,7 +1915,7 @@
                                                                             style="
                                                                                 margin: 0;
                                                                                 margin-bottom: 10px;
-                                                                                color: #222;
+                                                                                color: #000;
                                                                                 font-family: Helvetica;
                                                                                 font-size: 30px;
                                                                                 font-style: normal;
@@ -1752,22 +1940,21 @@
                                                                             style="
                                                                                 margin: 0;
                                                                                 margin-bottom: 10px;
-                                                                                color: #6b6b6b;
-                                                                                font-family: Arial;
-                                                                                font-size: 16px;
+                                                                                color: #555;
+                                                                                font-family: sans-serif;
+                                                                                font-size: 15px;
                                                                                 font-weight: 400;
                                                                                 hyphens: none;
-                                                                                line-height: 150%;
+                                                                                line-height: 20px;
                                                                                 margin: 0;
-                                                                                margin-bottom: 40px;
+                                                                                margin-bottom: 30px;
                                                                                 margin-left: 10px;
-                                                                                margin-top: 30px;
+                                                                                margin-top: 25px;
                                                                                 padding-bottom: 0;
                                                                                 padding-left: 0;
                                                                                 padding-right: 0;
                                                                                 padding-top: 0;
                                                                                 text-align: left;
-                                                                                width: 500px;
                                                                             "
                                                                         >
                                                                             Newark Arts’ mission is to power the arts to transform lives. Established in 1981 as the Newark Arts Council, the organization’s vision is to become a nationally
@@ -1781,22 +1968,21 @@
                                                                             style="
                                                                                 margin: 0;
                                                                                 margin-bottom: 10px;
-                                                                                color: #6b6b6b;
-                                                                                font-family: Arial;
-                                                                                font-size: 16px;
+                                                                                color: #555;
+                                                                                font-family: sans-serif;
+                                                                                font-size: 15px;
                                                                                 font-weight: 400;
                                                                                 hyphens: none;
-                                                                                line-height: 150%;
+                                                                                line-height: 20px;
                                                                                 margin: 0;
-                                                                                margin-bottom: 40px;
+                                                                                margin-bottom: 30px;
                                                                                 margin-left: 10px;
-                                                                                margin-top: 30px;
+                                                                                margin-top: 25px;
                                                                                 padding-bottom: 0;
                                                                                 padding-left: 0;
                                                                                 padding-right: 0;
                                                                                 padding-top: 0;
                                                                                 text-align: left;
-                                                                                width: 500px;
                                                                             "
                                                                         >
                                                                             To keep up-to-date on all the latest news from Newark Arts, sign up for our newsletter at
@@ -1863,6 +2049,7 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <!-- test area about newark arts ends  --><!-- block off this area for test begin  --><!-- block off this area for test end -->
                         <table
                             align="center"
                             class="container main-footer float-center"
@@ -1980,7 +2167,7 @@
                                                         </table>
                                                     </th>
                                                     <th
-                                                        class="small-12 large-3 columns"
+                                                        class="social-icons small-4 large-3 columns"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -2038,8 +2225,9 @@
                                                                                 font-size: 10px;
                                                                                 font-weight: 600;
                                                                                 line-height: 1.3;
-                                                                                margin: 0 auto;
+                                                                                margin: 0;
                                                                                 margin-bottom: 10px;
+                                                                                margin-top: 2px;
                                                                                 padding-bottom: 0;
                                                                                 padding-left: 0;
                                                                                 padding-right: 0;
@@ -2050,8 +2238,20 @@
                                                                             Share on Facebook
                                                                         </p>
                                                                         <img
+                                                                            class="float-right"
                                                                             src="https://i.postimg.cc/LsKHghMD/facebook.png"
-                                                                            style="-ms-interpolation-mode: bicubic; clear: both; display: inline-block; margin-left: 1px; max-width: 100%; outline: 0; text-decoration: none; width: auto;"
+                                                                            style="
+                                                                                -ms-interpolation-mode: bicubic;
+                                                                                clear: both;
+                                                                                display: inline-block;
+                                                                                float: right;
+                                                                                margin-left: 1px;
+                                                                                max-width: 100%;
+                                                                                outline: 0;
+                                                                                text-align: right;
+                                                                                text-decoration: none;
+                                                                                width: auto;
+                                                                            "
                                                                         />
                                                                     </th>
                                                                 </tr>
@@ -2059,7 +2259,7 @@
                                                         </table>
                                                     </th>
                                                     <th
-                                                        class="small-12 large-3 columns"
+                                                        class="social-icons small-4 large-3 columns"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -2117,8 +2317,9 @@
                                                                                 font-size: 10px;
                                                                                 font-weight: 600;
                                                                                 line-height: 1.3;
-                                                                                margin: 0 auto;
+                                                                                margin: 0;
                                                                                 margin-bottom: 10px;
+                                                                                margin-top: 2px;
                                                                                 padding-bottom: 0;
                                                                                 padding-left: 0;
                                                                                 padding-right: 0;
@@ -2129,8 +2330,20 @@
                                                                             Share on Twitter
                                                                         </p>
                                                                         <img
+                                                                            class="float-right"
                                                                             src="https://i.postimg.cc/mkJxx6Lj/twitter.png"
-                                                                            style="-ms-interpolation-mode: bicubic; clear: both; display: inline-block; margin-left: 1px; max-width: 100%; outline: 0; text-decoration: none; width: auto;"
+                                                                            style="
+                                                                                -ms-interpolation-mode: bicubic;
+                                                                                clear: both;
+                                                                                display: inline-block;
+                                                                                float: right;
+                                                                                margin-left: 1px;
+                                                                                max-width: 100%;
+                                                                                outline: 0;
+                                                                                text-align: right;
+                                                                                text-decoration: none;
+                                                                                width: auto;
+                                                                            "
                                                                         />
                                                                     </th>
                                                                 </tr>
@@ -2138,7 +2351,7 @@
                                                         </table>
                                                     </th>
                                                     <th
-                                                        class="small-12 large-3 columns"
+                                                        class="social-icons small-4 large-3 columns"
                                                         style="
                                                             -moz-hyphens: auto;
                                                             -webkit-hyphens: auto;
@@ -2187,6 +2400,7 @@
                                                                         "
                                                                     >
                                                                         <p
+                                                                            class="small-text-left"
                                                                             style="
                                                                                 margin: 0;
                                                                                 margin-bottom: 10px;
@@ -2196,8 +2410,9 @@
                                                                                 font-size: 10px;
                                                                                 font-weight: 600;
                                                                                 line-height: 1.3;
-                                                                                margin: 0 auto;
+                                                                                margin: 0;
                                                                                 margin-bottom: 10px;
+                                                                                margin-top: 2px;
                                                                                 padding-bottom: 0;
                                                                                 padding-left: 0;
                                                                                 padding-right: 0;
@@ -2208,8 +2423,20 @@
                                                                             Share on LinkedIn
                                                                         </p>
                                                                         <img
+                                                                            class="float-right"
                                                                             src="https://i.postimg.cc/4xCCBMFN/linkedin.png"
-                                                                            style="-ms-interpolation-mode: bicubic; clear: both; display: inline-block; margin-left: 1px; max-width: 100%; outline: 0; text-decoration: none; width: auto;"
+                                                                            style="
+                                                                                -ms-interpolation-mode: bicubic;
+                                                                                clear: both;
+                                                                                display: inline-block;
+                                                                                float: right;
+                                                                                margin-left: 1px;
+                                                                                max-width: 100%;
+                                                                                outline: 0;
+                                                                                text-align: right;
+                                                                                text-decoration: none;
+                                                                                width: auto;
+                                                                            "
                                                                         />
                                                                     </th>
                                                                 </tr>
@@ -2542,7 +2769,7 @@
                                             </tbody>
                                         </table>
                                         <table
-                                            class="row social-icons"
+                                            class="row social-icons-pack"
                                             style="
                                                 border-collapse: collapse;
                                                 border-spacing: 0;
