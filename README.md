@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://aloharene.github.io/Responsive_HTML_E-mail_Newsletter/">
-    <img src="https://renearenasflores.com/images/Responsive_HTML_E-mail_Newsletter.jpg" alt="Logo" width="80" height="80">
+    <img src="https://renearenasflores.com/images/Responsive_HTML_E-mail_Newsletter.jpg" alt="Logo" width="600" height="900">
   </a>
 
   
