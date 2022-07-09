@@ -22,16 +22,7 @@ This project was made with HTML,CSS. The page is fully responsive for all screen
     <br />
     <a href="https://aloharene.github.io/Responsive_HTML_E-mail_Newsletter/">View Project</a>
   </p>
-  <!-- ABOUT THE PROJECT -->
-## About The Project
 
-[![Newsletter.png](https://i.postimg.cc/G2QjBJCQ/Newsletter.png)](https://postimg.cc/47Ycqcn7)
-
-
-### Built With
-
-* [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 </div>
@@ -39,8 +30,17 @@ This project was made with HTML,CSS. The page is fully responsive for all screen
 
 
 
+  <!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Newsletter.png](https://i.postimg.cc/G2QjBJCQ/Newsletter.png)](https://postimg.cc/47Ycqcn7)
 
 
+
+### Built With
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 
