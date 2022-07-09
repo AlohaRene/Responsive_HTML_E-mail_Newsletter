@@ -18,7 +18,7 @@
     <br />
     <br />
     <br />
-    <a href="https://aloharene.github.io/Responsive_HTML_E-mail_Newsletter/">View Project</a>
+    
   </p>
 
 
