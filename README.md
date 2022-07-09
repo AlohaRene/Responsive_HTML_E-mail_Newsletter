@@ -11,8 +11,8 @@
   </a>
 
   
-
-
+<br />
+<br />
   <p align="center">
     The HTML Email News Letter project . The email embodies the essence of modern email design, and has many avenues for customer conversion. The customer viewing the email immediately sees the content. When scrolling down the page, the next two sections feature a call-to-action to increase conversions. Lower on the page are more options with links and another way for customers to subscribe to socials.
     <br />
