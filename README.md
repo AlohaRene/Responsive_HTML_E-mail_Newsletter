@@ -1,16 +1,74 @@
-<p>Project highlighting a HTML Email Newsletter. Done with inline styling on the html elements with consideration for compatibility across all major email clients.</p>
 
-<p>The HTML Promotional Email can be seen at <a href="https://aloharene.github.io/Responsive_HTML_E-mail_Newsletter/" rel="nofollow">Responsive_HTML_E-mail_Newsletter</a></p>
+<div id="top"></div>
 
-<h2><a id="user-content-built-with" class="anchor" aria-hidden="true" href="#built-with"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Built With</h2>
 
-<ul>
-<li><a href="https://www.w3.org/TR/html/" rel="nofollow">HTML4</a> - HTML markup language</li>
-<li><a href="https://www.w3.org/standards/techs/css#w3c_all" rel="nofollow">CSS3</a> - Latest css3 used</li>
-</ul>
 
-<h2><a id="user-content-contributors" class="anchor" aria-hidden="true" href="#contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Contributors</h2>
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://aloharene.github.io/Responsive_HTML_E-mail_Newsletter/">
+    <img src="https://renearenasflores.com/images/treelogo.webp" alt="Logo" width="80" height="80">
+  </a>
 
-<ul>
-<li><strong>Rene Arenas Flores</strong> - <em>Initial work</em></li>
-</ul>
+<h3 align="center">Email Newsletter</h3>
+
+  <p align="center">
+    The HTML Email News Letter project . The email embodies the essence of modern email design, and has many avenues for customer conversion. The customer viewing the email immediately sees the content. When scrolling down the page, the next two sections feature a call-to-action to increase conversions. Lower on the page are more options with links and another way for customers to subscribe to socials.
+
+This project was made with HTML,CSS. The page is fully responsive for all screen sizes, from ultrawide monitors to extra small phones. Click on either the image or "View Project" button above to see the live project, or click the "View Code" button above to view the code on GitHub.
+    <br />
+    <br />
+    <br />
+    <a href="https://aloharene.github.io/Responsive_HTML_E-mail_Newsletter/">View Project</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Built With
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Rene Arenas Flores - [@Aloha_Rene](https://twitter.com/twitter_handle)
+
+Project Link: [https://aloharene.github.io/Responsive_HTML_E-mail_Newsletter/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
