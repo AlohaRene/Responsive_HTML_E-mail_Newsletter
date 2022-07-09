@@ -6,9 +6,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://aloharene.github.io/Responsive_HTML_E-mail_Newsletter/">
-    <img src="https://renearenasflores.com/images/logo-no-background.png" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center">Email Newsletter</h3>
 
