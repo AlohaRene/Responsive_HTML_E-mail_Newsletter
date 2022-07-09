@@ -38,7 +38,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Rene Arenas Flores - [@Aloha_Rene](https://twitter.com/twitter_handle)
+Rene Arenas Flores - [@Aloha_Rene](https://twitter.com/Aloha_Rene)
 
 Project Link: [https://aloharene.github.io/Responsive_HTML_E-mail_Newsletter/)
 
